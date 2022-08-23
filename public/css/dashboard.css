@@ -1,0 +1,14 @@
+.container-fluid{
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:var(--bs-gutter-x,1.5rem);
+    padding-right:var(--bs-gutter-x,1.5rem);
+    width:100%
+}
+
+.navbar>.container-fluid{
+    align-items:center;
+    display:flex;
+    flex-wrap:inherit;
+    justify-content:space-between
+}

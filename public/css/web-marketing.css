@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+body { font-family: 'Quicksand', sans-serif; background: #F5F6FA; font-size: 14px; }
+
+.form-control, .form-select{
+   border-color: #ccc;
+   font-size: 14px;
+}
+.form-control:focus, .form-control:active {
+   box-shadow: none !important;
+   border-color: #FFBF00;
+}
+.form-select:focus, .form-select:active {
+   box-shadow: none !important;
+   border-color: #FFBF00;
+   font-size: 14px;
+}
+
+/* LOGIN SCREEN */
+.login-screen { 
+   width: 400px; 
+   position: fixed; 
+   top: 50%; 
+   left: 50%; 
+   transform: translate(-50%, -50%); 
+   background-color: #FFFFFF; 
+}
+
+.qr-screen { 
+   position: fixed; 
+   top: 50%; 
+   left: 50%; 
+   transform: translate(-50%, -50%); 
+}
+
+.login-image { width: 130px; }
+.copy-font { font-size: 12px; }
+.form-login { font-size: 14px; padding:10px; }
+.btn-login { width: 100%; height: 40px; font-size: 16px; font-weight: bold; }
+
+/* MAIN SCREEN */
+.text-color-default { color: #FFBF00; }
+.btn-main { background-color: #FFBF00; border: 1px solid #FFBF00; color: #FFF; }
+.btn-main:hover { background-color: #d8a200; border: 1px solid #d8a200; color: #FFF; }
+.main-container { padding: 15px; }
+.dashboard-chart-size { width: 100%; height: 450px; }
+
+
+.nav-pills .nav-link {
+   background-color: #F5F6FA;
+   border: 0;
+   border-radius: 0.25rem;
+}
+
+.nav-pills .nav-link:hover {
+   color: #FFBF00;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+   color: #000;
+   background-color: #ffe28b;
+   font-weight: 600;
+}
+
+/* REPORT SCREEN */
+.text-status-late { color: #B1010C; font-weight: 700; }
+.text-status-normal { color: #27AE60; font-weight: 700; }
+
+/* MONITOR DASHBOARD SCREEN */
+.monitor-body-dashboard {
+   background-color: #070707;
+}
+.monitor-card {
+   background-color: #222423;
+}
+
+/* DATATABLE OVERRIDE STYLING */
+.page-link {
+   color: #FFBF00;
+}
+.page-link:hover {
+   color: #FFBF00;
+}
+.page-item.active .page-link {
+   background-color: #FFBF00;
+   border-color: #FFBF00;
+}
